@@ -9,7 +9,7 @@ import Success from '../containers/Success';
 import NotFound from '../containers/NotFound';
 import Layout from '../components/Layout';
 
-import '../styles/components/app.scss';
+import '../styles/components/App.scss';
 
 const App = () => {
     return (

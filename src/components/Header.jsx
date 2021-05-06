@@ -1,8 +1,14 @@
 import React from 'react';
+import '../styles/components/Header.scss';
 
 const Header = ()=>{
     return(
-        <h1>Header</h1>
+        <div className="Header">
+            <h1 className="Header-title">Platziconf Merch</h1>
+            <div className="Header-checkout">
+                Checkout
+            </div>
+        </div>
     )
 }
 
