@@ -4,7 +4,7 @@ import initialState from '../initialState';
 const useInitialState = ()=>{
     const [state, setState] = useState(initialState);
 
-    const AddToCart = ()=>{
+    const AddToCart = (payload)=>{
         setState({
             ...state,
             cart: [...state.cart, payload]
